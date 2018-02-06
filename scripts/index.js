@@ -1,7 +1,7 @@
 (function () {
     // globals
-    var selectedTab = $("#profile-tab");
-    var selectedPage = $("#profile-page");
+    var selectedTab = $("#home-tab");
+    var selectedPage = $("#home-page");
 
     // Hide all pages by default
     var pages = $("#pages").children();
