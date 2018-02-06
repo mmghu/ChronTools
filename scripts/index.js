@@ -1,5 +1,5 @@
 (function () {
-    // globals
+    // Globals
     var selectedTab = $("#home-tab");
     var selectedPage = $("#home-page");
 
