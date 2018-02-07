@@ -51,7 +51,6 @@
 li {
     width: 15%;
     height: 100%;
-    display:inline-table;
 
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
@@ -61,7 +60,6 @@ li {
 
 a {
     text-align: center;
-    height: 100%;
 }
 
 #navbar-right {
