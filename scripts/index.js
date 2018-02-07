@@ -3,6 +3,11 @@
     var selectedTab = $("#home-tab");
     var selectedPage = $("#home-page");
 
+    // Temporary loading screen. Will be useful later!
+    setTimeout(function () {
+        $("#loading").remove();
+    }, 2000);
+
     // Page setup
     hideAllPages();
     setupNavbar();
