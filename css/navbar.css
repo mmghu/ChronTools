@@ -30,6 +30,10 @@
     background-color: black;
 }
 
+#navbar .navbar-nav li.active > a {
+	background-color: white;
+}
+
 #register-button {
     margin-left: 5%;
 }
