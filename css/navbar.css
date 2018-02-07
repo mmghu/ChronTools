@@ -1,3 +1,15 @@
+.title {
+    color: white;
+    font-size: 18px;
+
+    margin: 0;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
 #navbar-wrapper {
     flex-direction: row;
 
@@ -13,6 +25,10 @@
     height: 100%;
     width: 75%;
 
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+
     background-color: black;
     float:left;
 }
@@ -23,6 +39,7 @@
     justify-content: center;
 
     width: 25%;
+    height: 100%;
 }
 
 #tabs {
@@ -31,6 +48,11 @@
 
 li {
     width: 15%;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 a {
