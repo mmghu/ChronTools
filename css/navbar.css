@@ -74,10 +74,15 @@ a {
 
 #navbar .navbar-nav li.active > a {
 	background-color: white;
+    color: black;
 }
 
-#navbar .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: grey;
+#navbar .navbar-nav li > a {
+	color: white;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: inherit;
 }
 
 #register-button {
