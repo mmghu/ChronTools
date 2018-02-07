@@ -1,7 +1,40 @@
 #navbar-wrapper {
+    flex-direction: row;
+
+    height: 5%;
+    width: 100%;
+
     border: 0;
 }
 
 #navbar {
+    flex-direction: row;
+
+    height: 100%;
+    width: 75%;
+
     background-color: black;
+    float:left;
+}
+
+#navbar-right {
+    height: 100%;
+    width: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 75%;
+
+    background-color: black;
+}
+
+#register-button {
+    margin-left: 5%;
+}
+
+.nav-button {
+    width: 30%;
+    height: 70%;
 }
