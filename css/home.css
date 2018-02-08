@@ -26,10 +26,8 @@
 .black-background {
     flex-direction: column;
 
-    width: 100%;
+    width: 35%;
     height: 25%;
-
-    margin-top: 15%;
 
     background-color: black;
 }
