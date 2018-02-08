@@ -1,13 +1,17 @@
-.title {
+#title {
     color: white;
-    font-size: 18px;
+    font-size: 24px;
 
-    margin: 0;
+    margin-left: 5%;
 
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
+}
+
+#title:hover, #title:active, #title:visited, #title:focus {
+    text-decoration:none;
 }
 
 #navbar-wrapper {
@@ -38,7 +42,6 @@
 .navbar-header {
     display: flex;
     align-items: center;
-    justify-content: center;
 
     width: 25%;
     height: 100%;
@@ -61,6 +64,10 @@ li {
 
 a {
     text-align: center;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 #navbar-right {
