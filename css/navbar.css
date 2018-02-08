@@ -17,7 +17,7 @@
 #navbar-wrapper {
     flex-direction: row;
 
-    height: 7%;
+    height: 5%;
     width: 100%;
 
     margin: 0;
@@ -106,7 +106,7 @@ a:active {
 
 .nav-button {
     width: 30%;
-    height: 50%;
+    height: 70%;
 
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
