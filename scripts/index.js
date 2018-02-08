@@ -33,6 +33,10 @@
                 switchTabs($(event.target).parent());
             }
         });
+
+        $("#title").click(function(event) {
+            switchTabs($("#home-tab"));
+        });
     }
 
     // Strip the name from object ids
