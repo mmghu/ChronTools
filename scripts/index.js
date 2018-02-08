@@ -4,12 +4,12 @@
     var selectedPage = $("#home-page");
 
     // Temporary loading screen. Will be useful later!
-    $("#loading").remove();
-    // $("#navbar-wrapper").hide();
-    // setTimeout(function () {
-    //     $("#loading").remove();
-    //     $("#navbar-wrapper").show();
-    // }, 2000);
+    // $("#loading").remove();
+    $("#navbar-wrapper").hide();
+    setTimeout(function () {
+        $("#loading").remove();
+        $("#navbar-wrapper").show();
+    }, 2000);
 
     // Page setup
     hideAllPages();
