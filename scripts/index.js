@@ -3,13 +3,6 @@
     var selectedTab = $("#home-tab");
     var selectedPage = $("#home-page");
 
-    $(function () {
-        $(document).scroll(function () {
-            var $nav = $(".navbar-fixed-top");
-            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-        });
-    });
-
     // Temporary loading screen. Will be useful later!
     $("#loading").remove();
     // $("#navbar-wrapper").hide();
@@ -21,6 +14,7 @@
     // Page setup
     hideAllPages();
     setupNavbar();
+    setupScrollbar();
 
     // Hide all pages by default
     function hideAllPages() {
@@ -43,6 +37,14 @@
 
         $("#title").click(function(event) {
             switchTabs($("#home-tab"));
+        });
+    }
+
+    // Change scrollbar color on scroll
+    function setupScrollbar() {
+        $(document).scroll(function () {
+            var $nav = $(".navbar-fixed-top");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
         });
     }
 
