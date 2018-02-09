@@ -58,12 +58,16 @@
 }
 
 #tabs {
-    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 75%;
     height: 100%;
 }
 
 li {
-    width: 15%;
+    width: 10%;
     height: 100%;
 
     -webkit-user-select: none; /* Safari */
@@ -82,7 +86,7 @@ a:active {
 
 #navbar-right {
     height: 100%;
-    width: 25%;
+    width: 10%;
 
     display: flex;
     justify-content: center;
