@@ -67,13 +67,17 @@
 }
 
 li {
-    width: 10%;
-    height: 100%;
+    width: 8%;
+    height: 60%;
 
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
+}
+
+#login-tab {
+    border-left: 2px solid white;
 }
 
 a {
