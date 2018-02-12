@@ -33,7 +33,9 @@
     function setupNavbar() {
         $("#tabs").click(function(event) {
             if(event.target !== event.currentTarget) {
-                switchTabs($(event.target).parent());
+                if($(event.target).parent().attr("id") != "tabs") {
+                    switchTabs($(event.target).parent());
+                }
             }
         });
 
