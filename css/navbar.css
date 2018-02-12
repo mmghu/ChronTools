@@ -15,7 +15,7 @@
 }
 
 .navbar-fixed-top.scrolled {
-  background-color: black !important;
+  /* background-color: black !important; */
   transition: background-color 200ms linear;
   border-bottom: 4px;
   border-color: white;

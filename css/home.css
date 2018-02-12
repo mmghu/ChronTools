@@ -56,12 +56,18 @@
     -webkit-transform: rotate(45deg);
 }
 
-#info-pane {
-    background-color: white;
-
+.info-pane {
     width: 100%;
     height: 100%;
 
     position: relative;
     z-index: 1;
+}
+
+#chron-info {
+    background-color: black;
+}
+
+#chron-feat {
+    background-color: grey;
 }
