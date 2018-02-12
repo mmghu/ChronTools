@@ -48,6 +48,7 @@
             }
         });
 
+        // Make title switch to home tab
         $("#title").click(function(event) {
             switchTabs($("#home-tab"));
         });
