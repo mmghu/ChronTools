@@ -2,21 +2,30 @@
     // Globals
     var selectedTab = $("#home-tab");
     var selectedPage = $("#home-page");
-
-    // Temporary loading screen. Will be useful later!
-    $("#loading").remove();
-    // $("#navbar-wrapper").hide();
-    // $("#home-video").hide();
-    // setTimeout(function () {
-    //     $("#loading").remove();
-    //     $("#navbar-wrapper").show();
-    //     $("#home-video").show();
-    // }, 2000);
+    var debug = true;
 
     // Page setup
+    debugOptions(debug);
     hideAllPages();
     setupNavbar();
     setupScrollbar();
+
+    // Hide load menu and other objects if debugging
+    function debugOptions(debug) {
+        if(debug) {
+            $("#loading").remove();
+        }
+        else {
+            $("#navbar-wrapper").hide();
+            $("#home-video").hide();
+            
+            setTimeout(function () {
+                $("#loading").remove();
+                $("#navbar-wrapper").show();
+                $("#home-video").show();
+            }, 2000);
+        }
+    }
 
     // Hide all pages by default
     function hideAllPages() {
