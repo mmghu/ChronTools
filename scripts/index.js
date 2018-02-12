@@ -2,23 +2,23 @@
     // Globals
     var selectedTab = $("#home-tab");
     var selectedPage = $("#home-page");
-    var debug = true;
+    var debugMode = true;
 
     // Page setup
-    debugOptions(debug);
+    debugOptions(debugMode);
     hideAllPages();
     setupNavbar();
     setupScrollbar();
 
     // Hide load menu and other objects if debugging
-    function debugOptions(debug) {
-        if(debug) {
+    function debugOptions(debugMode) {
+        if(debugMode) {
             $("#loading").remove();
         }
         else {
             $("#navbar-wrapper").hide();
             $("#home-video").hide();
-            
+
             setTimeout(function () {
                 $("#loading").remove();
                 $("#navbar-wrapper").show();
