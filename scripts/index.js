@@ -2,7 +2,7 @@
     // Globals
     var selectedTab = $("#home-tab");
     var selectedPage = $("#home-page");
-    var debugMode = true;
+    var debugMode = false;
 
     // Page setup
     debugOptions(debugMode);
@@ -14,6 +14,7 @@
     function debugOptions(debugMode) {
         if(debugMode) {
             $("#loading").remove();
+            enableSnapScrolling();
         }
         else {
             $("#navbar-wrapper").hide();
@@ -23,8 +24,18 @@
                 $("#loading").remove();
                 $("#navbar-wrapper").show();
                 $("#home-video").show();
+                enableSnapScrolling();
             }, 2000);
         }
+    }
+
+    // Setup snap scrolling
+    function enableSnapScrolling() {
+        $(function() {
+            $.scrollify({
+                section : ".scroll",
+            });
+        });
     }
 
     // Hide all pages by default
@@ -59,12 +70,6 @@
         $(document).scroll(function () {
             var $nav = $(".navbar-fixed-top");
             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-        });
-
-        $(function() {
-            $.scrollify({
-                section : ".scroll",
-            });
         });
     }
 
