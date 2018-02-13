@@ -60,6 +60,12 @@
             var $nav = $(".navbar-fixed-top");
             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
         });
+
+        $(function() {
+            $.scrollify({
+                section : ".scroll",
+            });
+        });
     }
 
     // Strip the name from object ids
