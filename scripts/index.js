@@ -18,12 +18,12 @@
         }
         else {
             $("#navbar-wrapper").hide();
-            $("#home-video").hide();
+            $("#pages").hide();
 
             setTimeout(function () {
                 $("#loading").remove();
                 $("#navbar-wrapper").show();
-                $("#home-video").show();
+                $("#pages").show();
                 enableSnapScrolling();
             }, 2000);
         }
