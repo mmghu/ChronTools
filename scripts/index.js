@@ -2,10 +2,11 @@
     // Globals
     var selectedTab = $("#home-tab");
     var selectedPage = $("#home-page");
-    var debugMode = true;
+    var debugMode = false;
+    var loadingTime = 2000;
 
     // Page setup
-    debugOptions(debugMode);
+    debugOptions(debugMode, loadingTime);
     hideAllPages();
     setupNavbar();
     setupScrollbar();
@@ -26,7 +27,7 @@
     }
 
     // Hide load menu and other objects if debugging
-    function debugOptions(debugMode) {
+    function debugOptions(debugMode, loadingTime) {
         if(debugMode) {
             $("#loading").remove();
             enableSnapScrolling();
@@ -40,7 +41,7 @@
                 $("#navbar-wrapper").show();
                 $("#pages").show();
                 enableSnapScrolling();
-            }, 2000);
+            }, loadingTime);
         }
     }
 

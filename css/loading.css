@@ -13,8 +13,8 @@
 }
 
 .loader {
-    border: 5px solid #f3f3f3; /* Light grey */
-    border-top: 5px solid #000000; /* Blue */
+    border: 5px solid transparent; /* Light grey */
+    border-top: 3px solid white; /* Blue */
     border-radius: 50%;
     width: 120px;
     height: 120px;
