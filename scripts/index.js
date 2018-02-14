@@ -2,13 +2,28 @@
     // Globals
     var selectedTab = $("#home-tab");
     var selectedPage = $("#home-page");
-    var debugMode = false;
+    var debugMode = true;
 
     // Page setup
     debugOptions(debugMode);
     hideAllPages();
     setupNavbar();
     setupScrollbar();
+    setupButtons();
+
+    // Give action listeners to all the buttons
+    function setupButtons() {
+        $("#down-arrow").click(function(event) {
+            $.scrollify.next();
+        });
+
+        // Generally isolate css from javascript but this workaround is needed
+        $("#down-arrow").hover(function(event) {
+            $("#down-arrow").css({"padding": "12px", "border-width":"0 2px 2px 0"});
+        }, function() {
+            $("#down-arrow").css({"padding": "10px", "border-width":"0 2px 2px 0"});
+        });
+    }
 
     // Hide load menu and other objects if debugging
     function debugOptions(debugMode) {
