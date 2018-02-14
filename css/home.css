@@ -27,7 +27,6 @@
 .black-background {
     flex-direction: column;
     position: fixed;
-    /* background-color:rgba(0,0,0,0.75); */
     background: linear-gradient(rgba(0,0,0,.8), rgba(24,24,24,.8));
 
     width: 100%;
