@@ -35,11 +35,12 @@
 
 #home-title {
     color: white;
-    font-size: 64px;
+    font-size: 70px;
 }
 
 .home-descriptor {
     color: white;
+    font-size: 20px;
 }
 
 #down-arrow {
