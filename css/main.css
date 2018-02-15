@@ -6,6 +6,8 @@ html, body {
 body {
     overflow-y: scroll;
     overflow-x: hidden;
+
+    font-family: 'Open Sans', serif !important;
 }
 
 #master {
