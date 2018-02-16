@@ -2,7 +2,7 @@
     // Globals
     var selectedTab = $("#home-tab");
     var selectedPage = $("#home-page");
-    var debugMode = false;
+    var debugMode = true;
     var loadingTime = 2000;
 
     // Page setup
