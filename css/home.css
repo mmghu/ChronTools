@@ -74,23 +74,51 @@
     align-items: center;
 }
 
-#what-is-chron {
-    color: white;
-    font-size: 40px;
-
-    margin-top: 5%;
-}
-
 #what-is-chron-info {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
 
     width: 80%;
     text-align: center;
 
-    margin-top: 1%;
+    margin-top: 4%;
 }
 
 #chron-feat {
     background: linear-gradient(rgba(64,64,64,1), rgba(96,96,96,1));
+}
+
+.box-holder {
+    width: 90%;
+    height: 30%;
+
+    margin-top: 2%;
+}
+
+.box {
+    width: 100%;
+    height: 80%;
+
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.box-con {
+    width: 30%;
+    height: 100%;
+
+    flex-direction: column;
+
+    margin-right: 5%;
+}
+
+    .box-con-2 {
+        width: 20%;
+        margin-right: 2%;
+    }
+
+.box-text {
+    margin-top: 1%;
+    color: white;
+    text-align: center;
 }
