@@ -5,17 +5,6 @@
     var debugMode = true;
     var loadingTime = 2000;
 
-    $("#vampire > div:gt(0)").hide();
-
-    setInterval(function() {
-      $('#vampire > div:first')
-        .hide()
-        .next()
-        .fadeIn(1000)
-        .end()
-        .appendTo('#vampire');
-    }, 3000);
-
     // Page setup
     debugOptions(debugMode, loadingTime);
     hideAllPages();
