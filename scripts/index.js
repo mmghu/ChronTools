@@ -9,7 +9,7 @@
 
     setInterval(function() {
       $('#vampire > div:first')
-        .fadeOut(1000)
+        .hide()
         .next()
         .fadeIn(1000)
         .end()
