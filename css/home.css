@@ -108,7 +108,7 @@
     border: 1px solid white;
 }
 
-.game > figure {
+.slideshow > figure {
   animation: imageAnimation 30s linear infinite 0s;
   backface-visibility: hidden;
   background-size: cover;
@@ -123,7 +123,7 @@
   z-index: 0;
 }
 
-.game > figure:nth-child(1) {
+.slideshow > figure:nth-child(1) {
     background:
     linear-gradient(
         rgba(0, 0, 0, 0.6),
@@ -132,7 +132,7 @@
     url('../assets/apple.png');
 }
 
-.game > figure:nth-child(2) {
+.slideshow > figure:nth-child(2) {
   animation-delay: 6s;
   background:
   linear-gradient(
@@ -142,7 +142,7 @@
   url('../assets/banana.jpg');
 }
 
-.game > figure:nth-child(3) {
+.slideshow > figure:nth-child(3) {
   animation-delay: 12s;
   background:
   linear-gradient(
@@ -152,7 +152,7 @@
   url('../assets/carrot.jpg');
 }
 
-.game > figure:nth-child(4) {
+.slideshow > figure:nth-child(4) {
   animation-delay: 18s;
   background:
   linear-gradient(
@@ -162,7 +162,7 @@
   url('../assets/apple.png');
 }
 
-.game > figure:nth-child(5) {
+.slideshow > figure:nth-child(5) {
   animation-delay: 24s;
   background:
   linear-gradient(
@@ -170,6 +170,17 @@
       rgba(0, 0, 0, 0.6)
   ),
   url('../assets/carrot.jpg');
+}
+
+.game-title {
+    position: absolute;
+    color: white;
+}
+
+.game-description {
+    position: absolute;
+    color: white;
+    padding-top: 15%;
 }
 
 @keyframes
