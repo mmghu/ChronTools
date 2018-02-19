@@ -81,9 +81,27 @@
     width: 80%;
     text-align: center;
 
-    margin-top: 4%;
+    margin-top: 5%;
 }
 
 #chron-feat {
     background: linear-gradient(rgba(64,64,64,1), rgba(96,96,96,1));
+}
+
+#game-bar {
+    width: 90%;
+    height: 50%;
+
+    margin-top: 4%;
+}
+
+.game {
+    height: 100%;
+    width: 30%;
+
+    float: left;
+    margin-right: 5%;
+
+    box-sizing: border-box;
+    border: 2px solid white;
 }
