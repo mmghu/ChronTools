@@ -105,11 +105,11 @@
     margin-right: 5%;
 
     box-sizing: border-box;
-    border: 1px solid white;
 }
 
 .slideshow > figure {
   animation: imageAnimation 30s linear infinite 0s;
+  border-radius: 50%;
   backface-visibility: hidden;
   background-size: cover;
   background-position: center center;
