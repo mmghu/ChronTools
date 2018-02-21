@@ -81,12 +81,12 @@
     width: 80%;
     text-align: center;
 
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 #what-is-chron-info {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
 
     width: 80%;
     text-align: center;
@@ -100,14 +100,14 @@
 
 #game-bar {
     width: 90%;
-    height: 50%;
+    height: 25%;
 
-    margin-top: 4%;
+    margin-top: 5%;
 }
 
 .game {
     height: 100%;
-    width: 30%;
+    width: 15%;
 
     position: relative;
 
@@ -119,6 +119,7 @@
 
 .slideshow > figure {
   animation: imageAnimation 30s linear infinite 0s;
+  border-radius: 20px;
   backface-visibility: hidden;
   background-size: cover;
   background-position: center center;
