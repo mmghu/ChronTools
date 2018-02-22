@@ -77,7 +77,12 @@
 
         // Make title switch to home tab
         $("#title").click(function(event) {
-            switchTabs($("#home-tab"));
+            if(selectedTab.attr("id") == "home-tab") {
+                $.scrollify.previous();
+                $.scrollify.previous();
+            } else {
+                switchTabs($("#home-tab"));
+            }
         });
     }
 
