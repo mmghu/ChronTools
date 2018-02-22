@@ -14,15 +14,15 @@
 
     // Give action listeners to all the buttons
     function setupButtons() {
-        $("#down-arrow").click(function(event) {
+        $(".down-arrow").click(function(event) {
             $.scrollify.next();
         });
 
         // Generally isolate css from javascript but this workaround is needed
-        $("#down-arrow").hover(function(event) {
-            $("#down-arrow").css({"padding": "12px", "border-width":"0 2px 2px 0"});
+        $(".down-arrow").hover(function(event) {
+            $(".down-arrow").css({"padding": "12px", "border-width":"0 2px 2px 0"});
         }, function() {
-            $("#down-arrow").css({"padding": "10px", "border-width":"0 2px 2px 0"});
+            $(".down-arrow").css({"padding": "10px", "border-width":"0 2px 2px 0"});
         });
     }
 
