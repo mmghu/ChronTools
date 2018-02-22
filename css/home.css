@@ -117,10 +117,6 @@
     box-sizing: border-box;
 }
 
-.game:hover {
-    background-color: black;
-}
-
 .slideshow > figure {
   animation: imageAnimation 30s linear infinite 0s;
   backface-visibility: hidden;
@@ -190,7 +186,7 @@
     color: white;
     text-align: center;
 
-    width: 80%;
+    width: 100%;
     height: 100%;
 
     font-size: 20px;
