@@ -76,13 +76,8 @@
 }
 
 #chron-info-holder {
-    width: 65%;
+    width: 100%;
     height: 15%;
-
-    border-radius: 25px;
-
-    position: absolute;
-    z-index: 1;
 
     background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1));
 
@@ -103,7 +98,7 @@
 
 #game-bar {
     width: 100%;
-    height: 50%;
+    height: 42.5%;
 }
 
 .game {
@@ -112,9 +107,6 @@
 
     position: relative;
     float: left;
-
-    /* border-right: 2px solid white; */
-    box-sizing: border-box;
 }
 
 .slideshow > figure {
@@ -133,52 +125,27 @@
 }
 
 .slideshow > figure:nth-child(1) {
-    background:
-    linear-gradient(
-        rgba(0, 0, 0, 0.6),
-        rgba(0, 0, 0, 0.6)
-    ),
-    url('../assets/apple.png');
+    background: url('../assets/apple.png');
 }
 
 .slideshow > figure:nth-child(2) {
   animation-delay: 6s;
-  background:
-  linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-  ),
-  url('../assets/banana.jpg');
+  background: url('../assets/banana.jpg');
 }
 
 .slideshow > figure:nth-child(3) {
   animation-delay: 12s;
-  background:
-  linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-  ),
-  url('../assets/carrot.jpg');
+  background: url('../assets/carrot.jpg');
 }
 
 .slideshow > figure:nth-child(4) {
   animation-delay: 18s;
-  background:
-  linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-  ),
-  url('../assets/apple.png');
+  background: url('../assets/apple.png');
 }
 
 .slideshow > figure:nth-child(5) {
   animation-delay: 24s;
-  background:
-  linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-  ),
-  url('../assets/carrot.jpg');
+  background: url('../assets/carrot.jpg');
 }
 
 .game-title {
@@ -190,6 +157,13 @@
     height: 100%;
 
     font-size: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+
+    cursor: pointer;
+}
+
+.game-title:hover {
+    background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 1));
 }
 
 .game-description {
