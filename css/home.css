@@ -74,22 +74,21 @@
     align-items: center;
 }
 
-#welcome-chron {
-    color: white;
-    font-size: 30px;
+#chron-info-holder {
+    width: 100%;
+    height: 30%;
 
-    width: 80%;
-    text-align: center;
+    flex-direction: column;
 }
 
-#what-is-chron-info {
+.what-is-chron-info {
     color: white;
-    font-size: 14px;
+    font-size: 18px;
 
     width: 80%;
     text-align: center;
 
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 #chron-feat {
@@ -99,13 +98,6 @@
 #game-bar {
     width: 100%;
     height: 35%;
-}
-
-#chron-info-holder {
-    width: 100%;
-    height: 30%;
-
-    flex-direction: column;
 }
 
 .game {
