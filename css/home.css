@@ -186,12 +186,21 @@
 .game-title {
     position: absolute;
     color: white;
+    text-align: center;
+
+    width: 80%;
+    height: 20%;
 }
 
 .game-description {
     position: absolute;
+    text-align: center;
     color: white;
-    padding-top: 25%;
+
+    margin-top: 12%;
+
+    width: 80%;
+    height: 20%;
 }
 
 @keyframes
