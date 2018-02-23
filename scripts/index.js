@@ -11,6 +11,41 @@
     setupNavbar();
     setupScrollbar();
     setupButtons();
+    setupClickDivs();
+
+    // Setup some divs to be clickable links
+    function setupClickDivs() {
+        $('#vamp').click(function() {
+            window.open("http://theonyxpath.com/category/worlds/chroniclesofdarkness/vampiretherequiem/");
+        });
+        $('#were').click(function() {
+            window.open("http://theonyxpath.com/category/worlds/chroniclesofdarkness/werewolftheforsaken/");
+        });
+        $('#mage').click(function() {
+            window.open("http://theonyxpath.com/category/worlds/chroniclesofdarkness/magetheawakening/");
+        });
+        $('#prom').click(function() {
+            window.open("http://theonyxpath.com/category/worlds/chroniclesofdarkness/prometheanthecreated/");
+        });
+        $('#chan').click(function() {
+            window.open("http://theonyxpath.com/category/worlds/chroniclesofdarkness/changelingthelost/");
+        });
+        $('#hunt').click(function() {
+            window.open("http://theonyxpath.com/category/worlds/chroniclesofdarkness/hunterthevigil/");
+        });
+        $('#geis').click(function() {
+            window.open("http://theonyxpath.com/category/worlds/chroniclesofdarkness/geistthesineaters/");
+        });
+        $('#mumm').click(function() {
+            window.open("http://theonyxpath.com/category/worlds/chroniclesofdarkness/mummythecurse/");
+        });
+        $('#demo').click(function() {
+            window.open("http://theonyxpath.com/category/worlds/chroniclesofdarkness/demonthedescent/");
+        });
+        $('#beas').click(function() {
+            window.open("http://theonyxpath.com/category/worlds/chroniclesofdarkness/beasttheprimordial/");
+        });
+    }
 
     // Give action listeners to all the buttons
     function setupButtons() {
