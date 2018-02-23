@@ -28,8 +28,16 @@
         // Another javascript workaround for complicated slideshow animations
         $(".game-title").hover(function(event) {
             $(this).prev().children().css({"display": "flex"});
+            var temp = $(this).find(".game-description");
+            $(this).find(".game-title-text").animate({height:"50%"},300,function() {
+                temp.fadeIn("slow");
+            });
         }, function() {
             $(this).prev().children().css({"display": "none"});
+            var temp = $(this).find(".game-description");
+            temp.hide();
+            $(this).find(".game-title-text").animate({height:"100%"},300, function() {
+            });
         });
     }
 
