@@ -113,7 +113,7 @@
 }
 
 .slideshow > figure {
-  animation: imageAnimation 30s linear infinite 0s;
+  animation: imageAnimation 18s linear infinite 0s;
   backface-visibility: hidden;
   background-size: cover;
   background-position: center center;
@@ -125,6 +125,12 @@
   top: 0px;
   width: 100%;
   z-index: 0;
+
+  display: none;
+}
+
+.game-title:hover {
+    /* background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 1)); */
 }
 
 .slideshow > figure:nth-child(1) {
@@ -141,16 +147,6 @@
   background: url('../assets/carrot.jpg');
 }
 
-.slideshow > figure:nth-child(4) {
-  animation-delay: 18s;
-  background: url('../assets/apple.png');
-}
-
-.slideshow > figure:nth-child(5) {
-  animation-delay: 24s;
-  background: url('../assets/carrot.jpg');
-}
-
 .game-title {
     position: absolute;
     color: white;
@@ -163,10 +159,6 @@
     background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
 
     cursor: pointer;
-}
-
-.game-title:hover {
-    background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 1));
 }
 
 .game-description {
