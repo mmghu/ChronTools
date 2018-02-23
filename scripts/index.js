@@ -27,17 +27,21 @@
 
         // Another javascript workaround for complicated slideshow animations
         $(".game-title").hover(function(event) {
-            $(this).prev().children().css({"display": "flex"});
+            var temp3 = $(this).prev().children();
+            temp3.css({"display": "flex"});
             var temp = $(this).find(".game-description");
-            $(this).find(".game-title-text").animate({height:"50%"},300,function() {
-                temp.fadeIn("slow");
+            var temp2 = $(this).find(".game-title-text");
+            temp2.animate({height:"50%"},300,function() {
+                console.log(temp3.css("display"));
+                if(temp3.css("display") == "flex") {
+                    temp.fadeIn("slow");
+                }
             });
         }, function() {
             $(this).prev().children().css({"display": "none"});
             var temp = $(this).find(".game-description");
             temp.hide();
-            $(this).find(".game-title-text").animate({height:"100%"},300, function() {
-            });
+            $(this).find(".game-title-text").animate({height:"100%"},300);
         });
     }
 
