@@ -32,7 +32,6 @@
             var temp = $(this).find(".game-description");
             var temp2 = $(this).find(".game-title-text");
             temp2.animate({height:"50%"},300,function() {
-                console.log(temp3.css("display"));
                 if(temp3.css("display") == "flex") {
                     temp.fadeIn("slow");
                 }

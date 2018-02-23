@@ -170,8 +170,9 @@
 
 .game-description {
     color: white;
+    width: 80%;
+    margin-left: 10%;
     text-align: center;
-
     display: none;
 }
 
