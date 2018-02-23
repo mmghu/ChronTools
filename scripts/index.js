@@ -27,9 +27,9 @@
 
         // Another javascript workaround for complicated slideshow animations
         $(".game-title").hover(function(event) {
-            $(this).prev().children().css({"display": "flex", "border-width":"0 2px 2px 0"});
+            $(this).prev().children().css({"display": "flex"});
         }, function() {
-            $(this).prev().children().css({"display": "none", "border-width":"0 2px 2px 0"});
+            $(this).prev().children().css({"display": "none"});
         });
     }
 
