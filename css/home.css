@@ -102,7 +102,7 @@
 }
 
 #chron-feat {
-    background: linear-gradient(rgba(0,0,0,.8), rgba(24,24,24,.8));
+    background: linear-gradient(rgba(24,24,24,.8), rgba(24,24,24,.8));
     flex-direction: column;
 }
 
@@ -139,33 +139,19 @@
   display: none;
 }
 
-.game-title:hover {
-    /* background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 1)); */
-}
-
-.slideshow > figure:nth-child(1) {
-    background: url('../assets/apple.png');
-}
-
-.slideshow > figure:nth-child(2) {
-  animation-delay: 2s;
-  background: url('../assets/banana.jpg');
-}
-
-.slideshow > figure:nth-child(3) {
-  animation-delay: 4s;
-  background: url('../assets/carrot.jpg');
-}
-
 .game-title {
     position: absolute;
 
     width: 100%;
     height: 100%;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7));
 
     cursor: pointer;
+}
+
+.game-title:hover {
+    background-color: black;
 }
 
 .game-title-text {
@@ -270,7 +256,7 @@ imageAnimation {  0% {
 .chron-uses-opacity {
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6));
     flex-direction: column;
 }
 
@@ -279,12 +265,4 @@ imageAnimation {  0% {
     height: 40%;
 
     flex-direction: column;
-}
-
-#uses-in {
-    background: url("../assets/apple.png") center no-repeat;
-}
-
-#uses-out {
-    background: url("../assets/apple.png") center no-repeat;
 }
