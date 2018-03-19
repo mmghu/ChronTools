@@ -215,11 +215,28 @@ imageAnimation {  0% {
 }
 
 .chron-uses {
-    background-color: blue;
     width: 45%;
     height: 100%;
 
+    flex-direction: column;
+
     float: left;
+}
+
+.chron-uses-title {
+    width: 80%;
+    height: 15%;
+
+    border-bottom: 1px solid white;
+
+    color: white;
+    font-size: 20px;
+}
+
+.chron-use-single {
+    color: white;
+    font-size: 16px;
+    margin-top: 2%;
 }
 
 .login-signup {
