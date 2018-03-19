@@ -94,6 +94,7 @@
 
 #chron-feat {
     background: linear-gradient(rgba(64,64,64,1), rgba(96,96,96,1));
+    flex-direction: column;
 }
 
 #game-bar {
@@ -194,4 +195,24 @@ imageAnimation {  0% {
  100% {
  opacity: 0
 }
+}
+
+.chron-home-desc {
+    font-size: 18px;
+    color: white;
+}
+
+#chron-uses-holder {
+    width: 85%;
+    height: 60%;
+
+    margin-top: 2%;
+}
+
+.chron-uses {
+    background-color: blue;
+    width: 45%;
+    height: 100%;
+
+    float: left;
 }
