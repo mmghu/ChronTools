@@ -204,7 +204,7 @@ imageAnimation {  0% {
 
 #chron-uses-holder {
     width: 85%;
-    height: 60%;
+    height: 55%;
 
     margin-top: 2%;
 }
@@ -215,4 +215,13 @@ imageAnimation {  0% {
     height: 100%;
 
     float: left;
+}
+
+.login-signup {
+    width: 20%;
+    height: 10%;
+
+    margin-top: 2%;
+
+    background-color: red;
 }
